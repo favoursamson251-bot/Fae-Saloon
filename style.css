@@ -196,10 +196,12 @@ nav a:focus-visible::after {
   padding: 0 6%;
   background:
     linear-gradient(180deg, rgba(28,19,16,0.55), rgba(28,19,16,0.75)),
-    url("images/hero.jpg");
+    url("images/background.jpg");
   background-size: cover;
   background-position: center;
   background-color: var(--ink);
+  min-height: 100vh;
+
 }
 
 .hero-inner {
@@ -284,7 +286,7 @@ nav a:focus-visible::after {
     gap: 20px;
     padding: 20px;
    }
-   
+
    .card-grid figure {
     width: 90%;
     mask-border-width:220px;      /* Limits the maximum size*/
